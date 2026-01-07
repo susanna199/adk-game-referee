@@ -34,9 +34,8 @@ Game state is managed using Google ADK's InMemorySessionService, which provides 
 2. ToolContext – Enables tools to access and mutate session state
 
 ## Tool Definitions (utils.py):
-1. validate_moves(user_move, bot_move, tool_context):
-
-This tool checks move legality and prevents reusing bomb, implementing all basic game rules (like Rock beats scissors and not paper, bomb beats all etc)
+1. validate_moves: This tool checks move legality and prevents reusing bomb, implementing all basic game rules (like Rock beats scissors and not paper, bomb beats all etc)
+2. resolve_round: Determines the final game outcome
 
 # What I Would Improve With More Time
 - Input Validation: Strengthen handling input, moving beyond regex to handle cases like 'pa per' (which has a space in between) 
