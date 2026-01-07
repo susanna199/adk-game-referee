@@ -1,0 +1,49 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+my_agent/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+*.egg-info/
+dist/
+build/
+
+# ADK session files
+*.db
+.adk/
+
+# Environment files (contains API keys!)
+.env
+my_agent/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+EOF
