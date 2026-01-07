@@ -37,7 +37,7 @@ Game state is managed using Google ADK's InMemorySessionService, which provides 
 1. validate_moves: This tool checks move legality and prevents reusing bomb, implementing all basic game rules (like Rock beats scissors and not paper, bomb beats all etc)
 2. resolve_round: Determines the final game outcome
 
-# What I Would Improve With More Time
+## Scope for Improvement:
 - Input Validation: Strengthen handling input, moving beyond regex to handle cases like 'pa per' (which has a space in between) 
 - Structured Input/Output with Pydantic: Returning tool outputs in dictionary format ensure structured information when passed to Agent.
 - Persistent Storage: Include DatabaseSessionService that will ensure session recovery that saves state to the database (for potential alteration)
