@@ -28,12 +28,12 @@ Game state is managed using Google ADK's InMemorySessionService, which provides 
 3. State Stored in Session: Game state variables are stored in the ADK session object, not embedded in conversational text.
 4. Tool-Driven Mutations: State changes happen through the tool defined in utils.py file (validate_moves)
 
-## ADK Primitives Used:
+### ADK Primitives Used:
 
 1. InMemorySessionService – Manages game state persistence across rounds
 2. ToolContext – Enables tools to access and mutate session state
 
-## Tool Definitions (utils.py):
+### Tool Definitions (utils.py):
 1. validate_moves: This tool checks move legality and prevents reusing bomb, implementing all basic game rules (like Rock beats scissors and not paper, bomb beats all etc)
 2. resolve_round: Determines the final game outcome
 
